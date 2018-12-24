@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var value = prompt("Nhập vào giá trị cần tìm trong mảng"); //Nhập vào giá trị trong mảng
+    var x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22]; // Khai báo mảng x và các giá trị trong mảng x
+    for(var i=0;i<x.length;i++){ //Dòng for để lặp để tìm được giá trị
+        if(value==[i]){ //Nếu giá trị nhập vào trùng với giá trị trong mảng thì in ra
+            alert("giá trị cần tìm  " +x[i]+ " ở vị trí " +i);
+        }
+        else {
+            alert("không có giá trị trong mảng này");
+            break;
+        }
+    }
+
+
+
+</script>
+
+
+</body>
+</html>
